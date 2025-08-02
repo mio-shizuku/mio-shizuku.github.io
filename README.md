@@ -8,6 +8,10 @@
 
 Organization official website built with [Hugo](https://gohugo.io/) and [Hextra](https://imfing.github.io/hextra/) theme.
 
+## Live Site
+
+- [mio-shizuku.shettydev.com](https://mio-shizuku.shettydev.com/)
+
 ## Locally Preview
 
 ### Prerequisites
