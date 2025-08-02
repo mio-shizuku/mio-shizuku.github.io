@@ -43,3 +43,21 @@ params:
   editURL:
     enable: true
     base: "https://github.com/mio-shizuku/official-website/edit/main/content"
+
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: mio-shizuku/official-website
+      repoId: R_kgDOPXIF9w
+      category: Announcements
+      categoryId: DIC_kwDOPXIF984CttBi
+      mapping: pathname
+      strict: "0"
+      reactionsEnabled: "1"
+      emitMetadata: "0"
+      inputPosition: top
+      theme: preferred_color_scheme
+      lang: en
+      loading: lazy
