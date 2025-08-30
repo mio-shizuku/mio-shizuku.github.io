@@ -29,8 +29,8 @@ hugo version
 ### 克隆仓库
 
 ```bash
-git clone https://github.com/Kawaii-Chip/Kawaii-Chip.github.io.git Blog
-cd Blog
+git clone https://github.com/mio-shizuku/official-website.git
+cd official-website
 ```
 
 ### 新建页面
