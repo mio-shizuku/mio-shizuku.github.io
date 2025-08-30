@@ -7,4 +7,5 @@ toc: false
 
 {{< cards >}}
   {{< card link="about" title="About" icon="user" >}}
+  {{< card link="contribute" title="Contribute" icon="search" >}}
 {{< /cards >}}
