@@ -3,6 +3,12 @@ title: Mio Shizuku Official Site
 toc: false
 ---
 
+## Project
+
+{{< cards >}}
+  {{< card link="mio-monitor" title="Mio Monitor" icon="eye" >}}
+{{< /cards >}}
+
 ## Explore
 
 {{< cards >}}
