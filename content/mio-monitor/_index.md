@@ -5,5 +5,5 @@ comments: false
 ---
 
 {{< cards >}}
-  {{< card link="/design-plan" title="Design Plan" icon="book-open" >}}
+  {{< card link="./design-plan" title="Design Plan" icon="book-open" >}}
 {{< /cards >}}
