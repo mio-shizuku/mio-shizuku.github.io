@@ -4,38 +4,24 @@ date: 2025-09-08T00:37:03+08:00
 weight: 1
 ---
 
+mio-monitor 用于 ESP32-C3 端。
+
+## 功能
+
+与 mio-service 建立 websocket 连接。
+
+- 实时获取 PC 设备的硬件状态信息（CPU、内存、IO）。
+- 支持对 PC 的一些简单操作（音量、背光亮度）。
+
 ## 思路
 
 ### 建立连接
 
 1. 终端设备通过 mDNS 广播自身，附加信息用于区分终端设备类型；
 2. 终端设备在局域网中扫描广播，发现其他终端设备；
-3. 终端 A 向终端 B 发出 pair 请求（pair 由其他路由函数提供），终端 B 同意后，双方建立安全的连接，进行 p2p 通信。
+3. 终端 A 向终端 B 发出 pair 请求（pair 由其他路由函数提供），终端 B 同意后，双方建立安全的连接，进行 websocket 通信;
+4. mio-monitor 为 ws 客户端，mio-service 为 ws 服务端。
 
-### 控制终端
+## 技术栈
 
-使用 Rust 的各种 crate 功能对 PC 进行控制：
-
-- **notify-rust**: 桌面通知（跨平台）。
-
-### Agent 进阶
-
-使用 Agent 以及 MCP tools。
-
-将控制各个功能的函数封装成为 MCP tool，使用 Agent 直接解析 JSON 或者自然语言，然后对终端设备进行控制。
-
-## 组成
-
-### PC 端
-
-Rust (axum + tokio)
-
-### ESP32 端
-
-esp-idf-hal
-
-### 移动端（测试）
-
-Expo (React Native)
-
-用于替代 ESP32 作为前期测试。
+Rust (esp-idf-hal)
