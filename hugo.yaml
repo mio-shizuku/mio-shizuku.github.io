@@ -42,14 +42,14 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/mio-shizuku/official-website/edit/main/content"
+    base: "https://github.com/mio-shizuku/mio-shizuku.github.io/edit/main/content"
 
   comments:
     enable: true
     type: giscus
 
     giscus:
-      repo: mio-shizuku/official-website
+      repo: mio-shizuku/mio-shizuku.github.io
       repoId: R_kgDOPXIF9w
       category: Announcements
       categoryId: DIC_kwDOPXIF984CttBi
