@@ -5,5 +5,5 @@ comments: false
 ---
 
 {{< cards >}}
-  {{< card link="mio-service/design-plan" title="Design Plan" icon="book-open" >}}
+  {{< card link="/mio-service/design-plan" title="Design Plan" icon="book-open" >}}
 {{< /cards >}}
