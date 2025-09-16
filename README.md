@@ -1,8 +1,7 @@
 # Official Website
 
-[![CI](https://github.com/mio-shizuku/official-website/actions/workflows/ci.yml/badge.svg)](https://github.com/mio-shizuku/official-website/actions/workflows/ci.yml)
-[![Dependabot Updates](https://github.com/mio-shizuku/official-website/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/mio-shizuku/official-website/actions/workflows/dependabot/dependabot-updates)
-[![CodeQL](https://github.com/mio-shizuku/official-website/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/mio-shizuku/official-website/actions/workflows/github-code-scanning/codeql)
+[![Deploy Hugo site to Pages](https://github.com/mio-shizuku/mio-shizuku.github.io/actions/workflows/pages.yaml/badge.svg?branch=main)](https://github.com/mio-shizuku/mio-shizuku.github.io/actions/workflows/pages.yaml)
+[![CodeQL](https://github.com/mio-shizuku/mio-shizuku.github.io/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/mio-shizuku/mio-shizuku.github.io/actions/workflows/github-code-scanning/codeql)
 [![License](https://img.shields.io/badge/license-MIT-blue)](#license)
 [![Hugo](https://img.shields.io/badge/Hugo-v0.148-orange)](https://gohugo.io/)
 
