@@ -9,8 +9,6 @@ Organization official website built with [Hugo](https://gohugo.io/) and [Hextra]
 
 ## Live Site
 
-Currently site link uses GitHub page link. We will add personal link later.
-
 - [Offical website for Mio Shizuku](https://mio-shizuku.github.io/)
 
 ## Locally Preview

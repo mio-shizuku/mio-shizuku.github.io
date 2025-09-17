@@ -4,7 +4,7 @@ date: 2025-08-30T19:21:43+08:00
 ---
 
 {{< callout type="info" >}}
-  本文为组织成员撰写博客/文档提供参考指南，作为非组织成员贡献欢迎提交 [PR](https://github.com/mio-shizuku/official-website/pulls)。
+  本文为组织成员撰写博客/文档提供参考指南，作为非组织成员贡献欢迎提交 [PR](https://github.com/mio-shizuku/mio-shizuku.github.io/pulls)。
 {{< /callout >}}
 
 ## 步骤
