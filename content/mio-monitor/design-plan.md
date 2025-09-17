@@ -22,6 +22,12 @@ mio-monitor 用于 ESP32-C3 端。
 3. 终端 A 向终端 B 发出 pair 请求（pair 由其他路由函数提供），终端 B 同意后，双方建立安全的连接，进行 websocket 通信;
 4. mio-monitor 为 ws 服务端，mio-service 为 ws 客户端。
 
+### 设备认证
+
+1. 服务端生成短时间有效的 pair code，客户端连接 websocket 时，需要附带该 pair code，即为连接成功；
+2. 服务端立即生成 uuid，发送给客户端，同时在服务端非易失性存储中保存；
+3. 客户端保存 uuid，以后在连接时附加 uuid 作为认证。
+
 ## 技术栈
 
 Rust (esp-idf-hal)
